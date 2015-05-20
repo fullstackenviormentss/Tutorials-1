@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphDataStructure", "Graph
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeDataStructure", "TreeDataStructure\TreeDataStructure.csproj", "{E163C1DA-FC94-4AC5-AE7E-5DC4A5E96515}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GraphDataStructure.Tests", "GraphDataStructure.Tests", "{8D6CC0C3-7427-4143-8FF6-ACFBBA124AE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{46838E5E-3EFF-4DC1-B49E-1B44432EF4D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,15 @@ Global
 		{E163C1DA-FC94-4AC5-AE7E-5DC4A5E96515}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E163C1DA-FC94-4AC5-AE7E-5DC4A5E96515}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E163C1DA-FC94-4AC5-AE7E-5DC4A5E96515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46838E5E-3EFF-4DC1-B49E-1B44432EF4D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46838E5E-3EFF-4DC1-B49E-1B44432EF4D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46838E5E-3EFF-4DC1-B49E-1B44432EF4D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46838E5E-3EFF-4DC1-B49E-1B44432EF4D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46838E5E-3EFF-4DC1-B49E-1B44432EF4D2} = {8D6CC0C3-7427-4143-8FF6-ACFBBA124AE7}
 	EndGlobalSection
 EndGlobal
